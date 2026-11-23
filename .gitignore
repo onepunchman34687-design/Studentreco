@@ -1,0 +1,20 @@
+# Portable Python runtime (hundreds of MB, must not live in Git)
+python/
+
+# InsightFace model weights: buffalo_l is 326 MB and individual .onnx files
+# exceed GitHub's 100 MB per-file hard limit. Downloaded on first run.
+insightface_data/
+
+# Local student data and class photos (personal data)
+attendance.db
+captures/
+
+# College upload credentials
+college_api.json
+.env
+
+# Python caches / virtualenvs
+__pycache__/
+*.pyc
+venv/
+.venv/

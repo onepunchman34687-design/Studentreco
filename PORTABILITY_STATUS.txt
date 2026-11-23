@@ -1,0 +1,3 @@
+STATUS: Updated setup helper. Not tested end-to-end on a Windows host in this environment.
+
+The helper installs Python 3.11.9 to this folder, installs the pinned base packages, then downloads and installs an unofficial prebuilt InsightFace 0.7.3 wheel for CPython 3.11 Windows x64 to avoid compiling InsightFace locally. It then checks imports and downloads/checks the buffalo_l model. Do not assume setup succeeded unless the script ends with SETUP COMPLETE. Test the completed folder on another compatible Windows PC.
